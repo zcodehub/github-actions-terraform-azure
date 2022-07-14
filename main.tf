@@ -14,5 +14,5 @@ module "RG" {
 module "SA" {
   source   = "./modules/StorageAccount"
   sname    = var.sname
-   location = var.location
+  location = var.location
 }
